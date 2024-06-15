@@ -7,3 +7,13 @@
 
 ## Transform Output
 - src/book.json
+
+### Generate Book Transform Output
+
+```bash
+nvm use v16.20.0
+
+npm i
+
+npm run build
+```
