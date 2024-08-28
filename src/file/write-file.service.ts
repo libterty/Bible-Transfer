@@ -1,3 +1,9 @@
+import { BibleVerse } from "@/transfer/bible-to-table.service"
+
 export interface WriteToFileService {
-  handle<T>(fileName: string, data: T): void;
+  handle(fileName: string, data: {
+    header: string;
+    footer: string;
+    verses: BibleVerse[];
+  }): void;
 }
