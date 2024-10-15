@@ -1,7 +1,8 @@
 
 import { BibleToTableServiceImpl } from "./transfer/impl/bible-to-table-impl.service"
 import { WriteToFileServiceImpl } from "./file/impl/write-file-impl.service"
-import { bookContents } from './data/bible'
+// import { bookContents } from './data/bible'
+import { bookContents } from './data/bible_v2'
 
 function main() {
   const result = new BibleToTableServiceImpl().transfer(bookContents);
